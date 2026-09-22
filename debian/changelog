@@ -1,3 +1,13 @@
+cinnamon-desktop (6.7.5) adrien; urgency=medium
+
+  [ Nicolás Capdet ]
+  * gnome-wall-clock.c: Fix use-after-free in 'changed' signal handlers. (#276)
+
+  [ Regis Souza ]
+  * gnome-bg: don't serve a smaller cached pixbuf to a larger request (#277)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 22 Sep 2026 10:12:38 +0100
+
 cinnamon-desktop (6.7.4) adrien; urgency=medium
 
   [ Michael Webster ]
